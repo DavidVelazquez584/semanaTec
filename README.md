@@ -1,0 +1,2 @@
+# semanaTec
+Semana Tec repositorio
