@@ -6,6 +6,8 @@ kernell1 = np.array([[1,1,1],[0,0,0],[2,10,3]])
 print(imagen.shape)
 print(kernell1.shape)
 
+
+"Se reciben dos matrices y se multiplican"
 def multiplicacionM(image, kernel):
     i_fila,i_columna = image.shape
     conv = 0.0
@@ -17,4 +19,4 @@ def multiplicacionM(image, kernel):
     return conv
 
 
-print(Convolution(imagen,kernell1))
+print(multiplicacionM(imagen,kernell1))
