@@ -6,7 +6,7 @@ kernell1 = np.array([[1,1,1],[0,0,0],[2,10,3]])
 print(imagen.shape)
 print(kernell1.shape)
 
-def Convolution(image, kernel):
+def multiplicacionM(image, kernel):
     i_fila,i_columna = image.shape
     conv = 0.0
 
