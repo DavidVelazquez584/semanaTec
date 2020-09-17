@@ -15,7 +15,9 @@ bilateralFilter = cv2.bilateralFilter(img,9,75,75)
 titles = ['image', '2D Convolution', 'blur', 'GaussianBlur', 'median', 'bilateralFilter']
 images = [img, dst, blur, gblur, median, bilateralFilter]
 
+for i in range(6):
+    plt.subplot(2, 3, i+1), plt.imshow(images[i], 'gray')
+    plt.title(titles[i])
+    plt.xticks([]),plt.yticks([])
 
-
-
-
+plt.show()
