@@ -18,5 +18,15 @@ def multiplicacionM(image, kernel):
 
     return conv
 
+def Convolution(image, kernel):
+    i_fila,i_columna = image.shape
 
-print(multiplicacionM(imagen,kernell1))
+    imagenF = np.zeros(image.shape)
+
+    for i in range (i_fila):
+        for j in range (i_columna):
+            imagenF[i,j]=multiplicacionM(image, kernel)
+
+    return imagenF
+
+print(Convolution(imagen,kernell1))
