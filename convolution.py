@@ -12,6 +12,10 @@ gblur = cv2.GaussianBlur(img,(5,5))
 median = cv2.medianBlur(img,5)
 bilateralFilter = cv2.bilateralFilter(img,9,75,75)
 
+titles = ['image', '2D Convolution', 'blur', 'GaussianBlur', 'median', 'bilateralFilter']
+images = [img, dst, blur, gblur, median, bilateralFilter]
+
+
 
 
 
