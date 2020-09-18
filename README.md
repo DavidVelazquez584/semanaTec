@@ -1,6 +1,13 @@
 # semanaTec
 Semana Tec repositorio
 
+Integrantes: 
+David Alejandro Velazquez Valdez 
+Ivan Ortega Sotomayor
+Feliz de Haro
+Andres Refugio Contreras Gutierres
+Alan Alfredo Onofre Chavez 
+
 El objetivo de este proyecto es aplicar conceptos basicos de convolucion a imagenes para transformarlas dependiendo de la frecuencia de color de sus bordes. De esta manera se consiguen filtros para las imagenes dependiendo de sus caracteristicas unicas.
 
 Este proyecto fue desarrollado con el lenguaje de programacion pyhton y sus respectivas librerias OpenCV, numpy y matplotlib, cada una de ellas implementadas de diferentes manera en los archivos "convolution.py" y "ConvolutionMatrix.py".
