@@ -1,4 +1,3 @@
-"Basado en el codigo simple_conv.py"
 import numpy as np
 
 imagen = np.array([[1,2,3],[7,8,9],[0,0,1]])
@@ -19,16 +18,26 @@ def multiplicacionM(image, kernel):
 
     return conv
 
-
-"Se reciben dos matrices para hacer la convolucion"
 def Convolution(image, kernel):
     i_fila,i_columna = image.shape
 
-    imagenF = np.zeros(image.shape) "Se crea una matriz de ceros del tamaño de la imagen"
+    imagenF = np.zeros(image.shape)
 
     for i in range (i_fila):
         for j in range (i_columna):
-            imagenF[i,j]=multiplicacionM(image, kernel) "Se multiplican ambas matrices"
+            imagenF[i,j]=multiplicacionM(image, kernel)
+
+    return imagenF
+
+
+def Convolution(image, kernel):
+    i_fila,i_columna = image.shape
+
+    imagenF = np.zeros(image.shape) 
+
+    for i in range (i_fila):
+        for j in range (i_columna):
+            imagenF[i,j]=multiplicacionM(image, kernel) 
             
     return imagenF
 
@@ -36,3 +45,4 @@ print(Convolution(imagen,kernell1))
 
 
 
+print(Convolution(imagen,kernell1))
