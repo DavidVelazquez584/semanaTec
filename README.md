@@ -4,7 +4,7 @@ Semana Tec repositorio
 Integrantes: 
 David Alejandro Velazquez Valdez 
 Ivan Ortega Sotomayor
-Feliz de Haro
+Felix de Haro
 Andres Refugio Contreras Gutierres
 Alan Alfredo Onofre Chavez 
 
