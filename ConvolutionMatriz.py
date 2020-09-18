@@ -1,4 +1,4 @@
-"Basado en el codigo simple_conv.py"
+#"Basado en el codigo simple_conv.py"
 import numpy as np
 
 imagen = np.array([[1,2,3],[7,8,9],[0,0,1]])
@@ -8,7 +8,7 @@ print(imagen.shape)
 print(kernell1.shape)
 
 
-"Se reciben dos matrices y se multiplican"
+#"Se reciben dos matrices y se multiplican"
 def multiplicacionM(image, kernel):
     i_fila,i_columna = image.shape
     conv = 0.0
@@ -19,11 +19,11 @@ def multiplicacionM(image, kernel):
 
     return conv
 
-"Se mandan dos matrices para realizar la convolution"
+#"Se mandan dos matrices para realizar la convolution"
 def Convolution(image, kernel): 
     i_fila,i_columna = image.shape
 
-    imagenF = np.zeros(image.shape) "Se crea una matriz en ceros para recibir el resultado de la multiplicacion"
+    imagenF = np.zeros(image.shape) #"Se crea una matriz en ceros para recibir el resultado de la multiplicacion"
 
     for i in range (i_fila):
         for j in range (i_columna):
