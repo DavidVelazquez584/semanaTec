@@ -12,3 +12,14 @@ Liga de la página donde se obtuvo el codigo de CODEBIND: http://www.codebind.co
 python 3.8.5
 ubuntu 11.1.0 ubuntu2 
 git version 2.25.1
+
+Sesiones de trabajo en equipo:
+-Descargar/Instalar Ubuntu o terminal de Linux
+-Aprender comandos claves de la terminal de Linux
+-Practicar con la terminal moviendo, creando y cambiando archivos
+-Hacer repositorio de github
+-Clonar el repositorio en una carpeta con terminal
+-Aprender a utilizar la terminal de ubuntu con github
+-Crear archivos con terminal y modificarlos
+-Subir archivos al repositorio de github con terminal 
+-Hacer programas de convolution y programar cada quien una sección.
